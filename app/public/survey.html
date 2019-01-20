@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Survey</title>
+
+    <!-- Latest compiled and minified CSS & JS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <style>
+    .form-control-range {
+        margin: 15px
+    }
+
+    img {
+        max-width: 500px;
+        max-height: 500px;
+    }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="jumbotron">
+            <h1 class="text-center">
+                <span class="fa fa-fire"></span> Find a Friend</h1>
+            <hr>
+            <h2 class="text-center">Go get 'em</h2>
+            <br>
+            <div class="text-center">
+                <a href="/">
+                    <button class="btn btn-lg btn-default">
+                        <span class="fa fa-home"></span>
+                    </button>
+                </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <!-- Reservation Page -->
+                <div class="card" id="survey">
+                    <div class="card-header">
+                        <h2>Friendship Survey</h2>
+                        <p>Rate each meme in terms of it's relatablility. With right being more relatable and left
+                            being not so relateable</p>
+                    </div>
+                    <div class="card-body">
+                        <form role="form">
+                            <div class="form-group">
+                                <label for="friend-name">What us your name?</label>
+                                <input type="text" class="form-control" id="friend-name">
+                                <label for="friend-name">Post a Pic</label>
+                                <input type="text" class="form-control" id="photo-url">
+                                <form>
+
+                                    <div id="q1">
+                                        <div class="form-group">
+                                            <label for="formControlRange">Question 1</label>
+                                            <div class="text-center">
+                                                <img src="https://i.redd.it/5x917oj4yyu01.jpg" class="rounded" alt="...">
+                                            </div>
+                                            <input type="range" class="form-control-range">
+                                        </div>
+                                    </div>
+
+                                    <div id="q2">
+                                        <div class="form-group">
+                                            <label for="formControlRange">Question 2</label>
+                                            <div class="text-center">
+                                                <img src="https://preview.redd.it/dlavyd4bne121.jpg?width=750&auto=webp&s=ffdda8b1852702c1d2daf430c18d75506045df04" class="rounded mx-auto d-block" class="rounded" alt="...">
+                                            </div>
+                                            <input type="range" class="form-control-range">
+                                        </div>
+                                    </div>
+
+                                    <div id="q3">
+                                        <div class="form-group">
+                                            <label for="formControlRange">Question 3</label>
+
+                                            <div class="text-center">
+                                                    <img src="https://external-preview.redd.it/kH7_dLQ9IT9AH6IHDatSlPSvyqvoEY7CgbNeqxeXGoo.jpg?width=720&auto=webp&s=ad7b02bd0a33d9adeb2f451e08c2ca0a685e6781" class="rounded" alt="...">
+                                                </div>
+                                            <input type="range" class="form-control-range">
+                                        </div>
+                                    </div>
+
+                                    <div id="q4">
+                                        <div class="form-group">
+                                            <label for="formControlRange">Question 4</label>
+
+
+                                            <div class="text-center">
+                                                    <img src="https://i0.wp.com/thunderdungeon.com/wp-content/uploads/2018/10/Thunder-Dungeon-introvert-18.jpg?fit=600%2C496&ssl=1" class="rounded mx-auto d-block" class="rounded" alt="...">
+                                                </div>
+                                            <input type="range" class="form-control-range">
+                                        </div>
+                                    </div>
+
+                                    <div id="q5">
+                                        <div class="form-group">
+                                            <label for="formControlRange">Question 5</label>
+                                            <div class="text-center">
+                                                    <img src="https://img.buzzfeed.com/buzzfeed-static/static/2016-01/13/16/enhanced/webdr10/original-17379-1452718826-13.png?downsize=700:*&output-format=auto&output-quality=auto" class="rounded" alt="...">
+                                                </div>
+                                            <input type="range" class="form-control-range">
+                                        </div>
+                                    </div>
+
+
+                                    <div id="q6">
+                                        <div class="form-group">
+                                            <label for="formControlRange">Question 6</label>
+                                            <div class="text-center">
+                                                    <img src="https://meme.xyz/uploads/posts/t/l-9527-when-your-nose-is-stuffed.jpg" class="rounded" alt="...">
+                                                </div>
+                                            <input type="range" class="form-control-range">
+                                        </div>
+                                    </div>
+
+                                    <div id="q7">
+                                        <div class="form-group">
+                                            <label for="formControlRange">Question 7</label>
+                                            <div class="text-center">
+                                                    <img src="https://thechive.files.wordpress.com/2017/12/dont-sleep-on-these-memes-44-photos-259.jpg?quality=85&strip=info&w=600" class="rounded" alt="...">
+                                                </div>
+                                            <input type="range" class="form-control-range">
+                                        </div>
+                                    </div>
+
+                                    <div id="q8">
+                                        <div class="form-group">
+                                            <label for="formControlRange">Question 8</label>
+                                            <div class="text-center">
+                                                    <img src="https://sfwfun.com/wp-content/uploads/2018/11/Pikachu-Surprised-Meme-funny-Pikachu-Meme-hilarious-pokemon-Pikachu-Memes-22.jpg" class="rounded" alt="...">
+                                                </div>
+                                            <input type="range" class="form-control-range">
+                                        </div>
+                                    </div>
+
+                                    <div id="q9">
+                                        <div class="form-group">
+                                            <label for="formControlRange">Question 9</label>
+                                            <div class="text-center">
+                                                    <img src="https://external-preview.redd.it/haPQ60rE1zBksidB3KX1LYaFA36-0Rks1Kgd9Y2uOBY.jpg?auto=webp&s=af94d8eeb4cc77d190aa3048f1bbfa10c338e10a" class="rounded" alt="...">
+                                                </div>
+                                            <input type="range" class="form-control-range">
+                                        </div>
+                                    </div>
+
+                                    <div id="q10">
+                                        <div class="form-group">
+                                            <label for="formControlRange">Question 10</label>
+                                            <div class="text-center">
+                                                    <img src="https://i.redd.it/ippi752flqz11.jpg" class="rounded" alt="...">
+                                                </div>
+                                            <input type="range" class="form-control-range">
+                                        </div>
+                                    </div>
+
+
+                                </form>
+                                <button type="submit" class="btn btn-primary submit">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            
+                </div>
+            </div>
+        </div>
+
+
+        <footer class="footer">
+            <!-- <div class="container">
+                <p>
+                    <a href="/api/friendData">API Table Link</a> |
+                    <a href="/api/waitlist">API Wait List</a>
+            </div> -->
+        </footer>
+
+    </div>
+
+</body>
+
+</html>
+
+<!-- BELOW CODE IS CRITICAL. IT HANDLES HOW FORM DATA IS SENT TO OUR SERVER -->
+<script type="text/javascript">
+    // In this code below we create the Front-end JavaScript which "POSTS" our form data to our express server.
+    // In essence, when the user hits submit, jQuery grabs all of the fields then sends a post request to our api
+    // Our api recognizes the route (/api/friendData)... and then runs the associated code (found in api-routes.js).
+    // In this case the associated code "saves" the data to the table-data.js file or waitinglist-data.js file
+    $('.results').hide();
+
+    $(".submit").on("click", function (event) {
+        event.preventDefault();
+
+        // Here we grab the form elements
+        var newFriend = {
+            friendName: $("#friend-name").val().trim(),
+            photourl: $('#photo-url').val().trim(),
+            answerArray: []
+        };
+
+        for (i = 1; i < 11; i++) {
+            let a = $(`#q${i} .form-control-range`).val();
+            newFriend.answerArray.push(a);
+        };
+
+        console.log(newFriend);
+
+
+        $.post("/api/friendData", newFriend, function (data) {
+            //console.log(data)
+            // If a table is available...
+            if (data) {
+                alert("Calculating BFF...");
+
+                //console.log(data[data.length -1])
+
+                let userScore = data[data.length - 1].answerArray
+
+                let match = {
+                    bffName: "",
+                    bffPic: "",
+                    bffScore: 100000
+                }
+
+                for (i = 0; i < data.length - 1; i++) {
+                    // console.log(data[i].friendName)
+                    // console.log(data[i].photourl)
+                    // console.log(data[i].answerArray)
+
+
+                    let friendScores = data[i].answerArray
+
+                    //console.log(friendScores, userScores)
+
+                    // let bffScore = 0;
+                    let totalScore = 0;
+
+
+                    for (j = 0; j < friendScores.length; j++) {
+
+                        totalScore += (Math.abs(friendScores[j] - userScore[j]));
+                        //  console.log("calculating Deff", friendScores[j], userScore[j])
+                        //console.log("result: ", totalScore)
+                    }
+                    //  console.log('compairing ' + totalScore + ' to ' + match.bffScore)
+                    if (totalScore < match.bffScore) {
+                        console.log(totalScore)
+
+                        match = {
+                            bffName: data[i].friendName,
+                            bffPic: data[i].photourl,
+                            bffScore: totalScore
+                        }
+
+                        console.log(data[i].friendName + "is out new bff")
+                    }
+                    //     topScore = totalScores.sort(function (a, b) { return a - b })
+                    //     console.log(topScore[0]);
+
+                    //     console.log(totalScores.findIndex(topScore[0]))
+                }
+                console.log('-------------best match-----------------')
+                console.log(match)
+
+                $('#survey').html(`
+                <img class="card-img-top" id="match-pic" src="">
+                    <div class="card-body">
+                    <h2>Yout best match is: ${match.bffName}<h2>
+                    <img src="${match.bffPic}" class="rounded mx-auto d-block">
+                ` )
+
+            }
+            // If a table is available... tell user they on the waiting list.
+            else {
+                alert("Sorry somthing went wrong");
+            }
+
+
+        });
+
+
+
+
+
+
+
+
+
+    });
+
+</script>
